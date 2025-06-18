@@ -9,12 +9,14 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <FeaturedDestination />
-      <ExclusiveOffers />
-      <Testimonial />
-      <NewsLetter />
+      <div className="space-y-24"> {/* ✅ add spacing between sections */}
+        <FeaturedDestination />
+        <ExclusiveOffers />
+        <Testimonial />
+        <NewsLetter />
+      </div>
     </>
   )
 }
 
-export default Home
+export default Home;

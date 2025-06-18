@@ -14,3 +14,7 @@
 .font-playfair{
    font-family: Playfair !important;
 }
+/* STOP horizontal zoom or scroll */
+body {
+  overflow-x: hidden;
+}
